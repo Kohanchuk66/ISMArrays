@@ -1,0 +1,6 @@
+C:\Users\Krasav4ik\source\repos\ISMArrays\ISMArrays\obj\Debug\ISMArrays.csprojAssemblyReference.cache
+C:\Users\Krasav4ik\source\repos\ISMArrays\ISMArrays\bin\Debug\ISMArrays.exe.config
+C:\Users\Krasav4ik\source\repos\ISMArrays\ISMArrays\bin\Debug\ISMArrays.exe
+C:\Users\Krasav4ik\source\repos\ISMArrays\ISMArrays\bin\Debug\ISMArrays.pdb
+C:\Users\Krasav4ik\source\repos\ISMArrays\ISMArrays\obj\Debug\ISMArrays.exe
+C:\Users\Krasav4ik\source\repos\ISMArrays\ISMArrays\obj\Debug\ISMArrays.pdb

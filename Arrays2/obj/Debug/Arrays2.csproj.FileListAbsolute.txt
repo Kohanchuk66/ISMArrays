@@ -1,0 +1,6 @@
+C:\Users\Krasav4ik\source\repos\ISMArrays\Arrays2\bin\Debug\Arrays2.exe.config
+C:\Users\Krasav4ik\source\repos\ISMArrays\Arrays2\bin\Debug\Arrays2.exe
+C:\Users\Krasav4ik\source\repos\ISMArrays\Arrays2\bin\Debug\Arrays2.pdb
+C:\Users\Krasav4ik\source\repos\ISMArrays\Arrays2\obj\Debug\Arrays2.csprojAssemblyReference.cache
+C:\Users\Krasav4ik\source\repos\ISMArrays\Arrays2\obj\Debug\Arrays2.exe
+C:\Users\Krasav4ik\source\repos\ISMArrays\Arrays2\obj\Debug\Arrays2.pdb
