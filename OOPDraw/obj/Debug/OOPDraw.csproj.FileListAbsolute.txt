@@ -1,0 +1,9 @@
+C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\bin\Debug\OOPDraw.exe.config
+C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\bin\Debug\OOPDraw.exe
+C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\bin\Debug\OOPDraw.pdb
+C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\obj\Debug\OOPDraw.csprojAssemblyReference.cache
+C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\obj\Debug\OOPDraw.Form1.resources
+C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\obj\Debug\OOPDraw.Properties.Resources.resources
+C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\obj\Debug\OOPDraw.csproj.GenerateResource.cache
+C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\obj\Debug\OOPDraw.exe
+C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\obj\Debug\OOPDraw.pdb
