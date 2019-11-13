@@ -8,7 +8,7 @@ namespace OOPDraw
 {
     public abstract class Shape_Point
     {
-        protected int x;
+        public int x;
         protected int y;
         protected int col; 
         protected Color color;
@@ -17,28 +17,11 @@ namespace OOPDraw
             Random rand = new Random();
             x = rand.Next(1, 500);
             y= rand.Next(1, 500);
-            col = rand.Next(1, 7);
-            switch (col)
-            {
-                case 1:                    
-                        color = Color.Green;
-                    break;
-                case 2:
-                    color = Color.Blue;
-                    break;
-                case 3:
-                    color = Color.Black;
-                    break;
-                case 4:
-                    color = Color.Red;
-                    break;
-                case 5:
-                    color = Color.Brown;
-                    break;
-                case 6:
-                    color = Color.Pink;
-                    break;
-            }
+            color = Color.FromArgb(
+                rand.Next(256),
+                rand.Next(256),
+                rand.Next(256)
+                );
         }
         public Shape_Point(int X,int Y, Color pen)
         {
@@ -70,6 +53,26 @@ namespace OOPDraw
         {
             color = Color;
         }
-        public abstract void Draw(Graphics graphics)
+        public abstract void Draw(Graphics graphics);        
+        public Shape_Point decx(Shape_Point shape)
+        {
+            shape.x--;
+            return shape;
+        }
+        public Shape_Point incx(Shape_Point shape)
+        {
+            shape.x++;
+            return shape;
+        }
+        public Shape_Point decy(Shape_Point shape)
+        {
+            shape.y--;
+            return shape;
+        }
+        public Shape_Point incy(Shape_Point shape)
+        {
+            shape.y++;
+            return shape;
+        }
     }
 }

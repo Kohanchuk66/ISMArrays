@@ -7,3 +7,7 @@ C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\obj\Debug\OOPDraw.Properties.R
 C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\obj\Debug\OOPDraw.csproj.GenerateResource.cache
 C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\obj\Debug\OOPDraw.exe
 C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\obj\Debug\OOPDraw.pdb
+C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\bin\Debug\ShapeLibrary.dll
+C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\bin\Debug\ShapeLibrary.pdb
+C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\obj\Debug\OOPDraw.csproj.CopyComplete
+C:\Users\Krasav4ik\source\repos\ISMArrays\OOPDraw\bin\Debug\System.Drawing.Common.dll

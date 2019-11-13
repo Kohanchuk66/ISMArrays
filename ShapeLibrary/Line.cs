@@ -11,33 +11,16 @@ namespace OOPDraw
         protected int x2,y2;
         public Line()
         {
-            Random rand = new Random();
-            x = rand.Next(1, 500);
-            y = rand.Next(5, 439);
-            x2 = rand.Next(4, 550);
+            Random rand = new Random();            
+            x2 = rand.Next(0, 550);
             y2 = rand.Next(7, 429);
-            col = rand.Next(1, 7);
-            switch (col)
-            {
-                case 1:
-                    color = Color.Green;
-                    break;
-                case 2:
-                    color = Color.Blue;
-                    break;
-                case 3:
-                    color = Color.Black;
-                    break;
-                case 4:
-                    color = Color.Red;
-                    break;
-                case 5:
-                    color = Color.Brown;
-                    break;
-                case 6:
-                    color = Color.Pink;
-                    break;
-            }
+            x = rand.Next(1, 500);
+            y = rand.Next(1, 500);
+            color = Color.FromArgb(
+                rand.Next(256),
+                rand.Next(256),
+                rand.Next(256)
+                );
         }
         public void SetLineX(int X)
         {
@@ -61,17 +44,11 @@ namespace OOPDraw
         }
         public Line(int x,int y,int x2,int y2, Color color) :base(x,y,color)
         {
-            this.x = x;
-            this.y = y;
             this.x2 = x2;
             this.y2 = y2;
-            this.color = color;
         }
         public Line(Color color, int x, int y) : base(x, y, color)
         {
-            this.x = x;
-            this.y = y;
-            this.color = color;
         }
         public Line(Line line)
         {
@@ -85,5 +62,6 @@ namespace OOPDraw
         {
             graphics.DrawLine(new Pen(color), x, y, x2, y2);
         }
+        
     }
 }

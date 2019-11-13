@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
+using System.Windows.Forms;
 namespace OOPDraw
 {
     class Rectangle: Line
@@ -12,48 +13,25 @@ namespace OOPDraw
         protected int height;
         public Rectangle()
         {
-            Random rand = new Random();
+            Random rand = new Random(DateTime.Now.Millisecond);
+            height = rand.Next(0,500);
             x = rand.Next(1, 500);
-           col = rand.Next(1, 7);
-            y = rand.Next(10, 499);
-             width = rand.Next(9, 139);
-            switch (col)
-            {
-                case 1:
-                    color = Color.Green;
-                    break;
-                case 2:
-                    color = Color.Blue;
-                    break;
-                case 3:
-                    color = Color.Black;
-                    break;
-                case 4:
-                    color = Color.Red;
-                    break;
-                case 5:
-                    color = Color.Brown;
-                    break;
-                case 6:
-                    color = Color.Pink;
-                    break;
-            }
-            height = rand.Next(10, 100);
-            
+            y = rand.Next(1, 500);
+            color = Color.FromArgb(
+                rand.Next(256),
+                rand.Next(256),
+                rand.Next(256)
+                );
+            width = rand.Next(10, 100);
+
         }
         public Rectangle(Color color, int x, int y, int height, int width) : base(color, x, y )
         {
-            this.x = x;
-            this.y = y;
-            this.color = color;
             this.height = height;
             this.width = width;
         }
         public Rectangle(Color color, int x, int y) : base(color, x, y)
-        {
-            this.x = x;
-            this.y = y;
-            this.color = color;            
+        {    
         }
         public Rectangle(Rectangle rectangle)
         {
