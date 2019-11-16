@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
 using System.Windows.Forms;
-namespace OOPDraw
+namespace ShapeLibrary
 {
     class Rectangle: Line
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
-namespace OOPDraw
+namespace ShapeLibrary
 {
     public abstract class Shape_Point
     {
